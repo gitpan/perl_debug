@@ -1,0 +1,2207 @@
+make install.perl install.man STRIPFLAGS=
+make[1]: Entering directory `/tmp/perl/buildperl'
+	AutoSplitting perl library
+PATH=/tmp/perl/buildperl:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/opt/gnome/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local:/etc:/usr/lib:/lib:/usr/libexec ./miniperl -Ilib -e 'use AutoSplit; \
+	autosplit_lib_modules(@ARGV)' lib/*.pm
+PATH=/tmp/perl/buildperl:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/opt/gnome/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local:/etc:/usr/lib:/lib:/usr/libexec ./miniperl -Ilib -e 'use AutoSplit; \
+	autosplit_lib_modules(@ARGV)' lib/*/*.pm
+make lib/re.pm
+make[2]: Entering directory `/tmp/perl/buildperl'
+make[2]: `lib/re.pm' is up to date.
+make[2]: Leaving directory `/tmp/perl/buildperl'
+
+	Making DynaLoader (static_pic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/DynaLoader'
+ 
+	Making utilities
+make[2]: Entering directory `/tmp/perl/buildperl/utils'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/perl/buildperl/utils'
+ 
+	Making x2p stuff
+make[2]: Entering directory `/tmp/perl/buildperl/x2p'
+ 
+make[2]: Leaving directory `/tmp/perl/buildperl/x2p'
+
+	Making B (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/B'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/B'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/B'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/B/C'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/B/C'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/B'
+
+	Making ByteLoader (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/ByteLoader'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/ByteLoader'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/ByteLoader'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/ByteLoader'
+
+	Making Cwd (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Cwd'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Cwd'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Cwd'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Cwd'
+
+	Making DB_File (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/DB_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/DB_File'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/DB_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/DB_File'
+
+	Making Data::Dumper (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Data/Dumper'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Data/Dumper'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Data/Dumper'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Data/Dumper'
+
+	Making Devel::DProf (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Devel/DProf'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Devel/DProf'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Devel/DProf'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Devel/DProf'
+
+	Making Devel::PPPort (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Devel/PPPort'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Devel/PPPort'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Devel/PPPort'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Devel/PPPort'
+
+	Making Devel::Peek (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Devel/Peek'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Devel/Peek'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Devel/Peek'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Devel/Peek'
+
+	Making Digest::MD5 (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Digest/MD5'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Digest/MD5'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Digest/MD5'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Digest/MD5'
+
+	Making Encode (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Encode'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Encode'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Encode'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/Byte'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/Byte'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/CN'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/CN'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/EBCDIC'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/EBCDIC'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/JP'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/JP'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/KR'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/KR'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/Symbol'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/Symbol'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/TW'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/TW'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/Encode/Unicode'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/Encode/Unicode'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Encode'
+
+	Making Fcntl (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Fcntl'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Fcntl'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Fcntl'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Fcntl'
+
+	Making File::Glob (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/File/Glob'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/File/Glob'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/File/Glob'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/File/Glob'
+
+	Making Filter::Util::Call (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Filter/Util/Call'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Filter/Util/Call'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Filter/Util/Call'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Filter/Util/Call'
+
+	Making GDBM_File (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/GDBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/GDBM_File'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/GDBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/GDBM_File'
+
+	Making I18N::Langinfo (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/I18N/Langinfo'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/I18N/Langinfo'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/I18N/Langinfo'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/I18N/Langinfo'
+
+	Making IO (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/IO'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/IO'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/IO'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/IO'
+
+	Making List::Util (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/List/Util'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/List/Util'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/List/Util'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/List/Util'
+
+	Making MIME::Base64 (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/MIME/Base64'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/MIME/Base64'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/MIME/Base64'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/MIME/Base64'
+
+	Making NDBM_File (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/NDBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/NDBM_File'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/NDBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/NDBM_File'
+
+	Making ODBM_File (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/ODBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/ODBM_File'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/ODBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/ODBM_File'
+
+	Making Opcode (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Opcode'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Opcode'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Opcode'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Opcode'
+
+	Making POSIX (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/POSIX'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/POSIX'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/POSIX'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/POSIX'
+
+	Making PerlIO::encoding (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/PerlIO/encoding'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/PerlIO/encoding'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/PerlIO/encoding'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/PerlIO/encoding'
+
+	Making PerlIO::scalar (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/PerlIO/scalar'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/PerlIO/scalar'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/PerlIO/scalar'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/PerlIO/scalar'
+
+	Making PerlIO::via (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/PerlIO/via'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/PerlIO/via'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/PerlIO/via'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/PerlIO/via'
+
+	Making SDBM_File (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/SDBM_File'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/SDBM_File'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/SDBM_File'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/SDBM_File/sdbm'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/SDBM_File/sdbm'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/SDBM_File'
+
+	Making Socket (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Socket'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Socket'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Socket'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Socket'
+
+	Making Storable (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Storable'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Storable'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Storable'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Storable'
+
+	Making Sys::Hostname (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Sys/Hostname'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Sys/Hostname'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Sys/Hostname'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Sys/Hostname'
+
+	Making Sys::Syslog (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Sys/Syslog'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Sys/Syslog'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Sys/Syslog'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Sys/Syslog'
+
+	Making Time::HiRes (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Time/HiRes'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Time/HiRes'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Time/HiRes'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Time/HiRes'
+
+	Making Unicode::Normalize (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Unicode/Normalize'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Unicode/Normalize'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Unicode/Normalize'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Unicode/Normalize'
+
+	Making XS::APItest (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/XS/APItest'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/XS/APItest'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/XS/APItest'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/XS/APItest'
+
+	Making XS::Typemap (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/XS/Typemap'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/XS/Typemap'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/XS/Typemap'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/XS/Typemap'
+
+	Making attrs (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/attrs'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/attrs'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/attrs'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/attrs'
+
+	Making re (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/re'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/re'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/re'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/re'
+
+	Making threads (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/threads'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/threads'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/threads'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/threads'
+
+	Making threads::shared (dynamic)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/threads/shared'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/threads/shared'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/threads/shared'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/threads/shared'
+
+	Making Errno (nonxs)
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Errno'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Errno'
+make[2]: Entering directory `/tmp/perl/buildperl/ext/Errno'
+make[2]: Leaving directory `/tmp/perl/buildperl/ext/Errno'
+make[1]: [extras.make] Error 1 (ignored)
+ 
+	Everything is up to date. Type 'make test' to run test suite.
+if [ -n "" ]; \
+then \
+	cd utils; make compile; \
+	cd ../x2p; make compile; \
+	cd ../pod; make compile; \
+else :; \
+fi
+PATH=/tmp/perl/buildperl:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/opt/gnome/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local:/etc:/usr/lib:/lib:/usr/libexec ./perl installperl --destdir=  
+WARNING: You've never run 'make test' or some tests failed! (Installing anyway.)
+  /usr/bin/ld2
+  /usr/bin/perlld
+  /usr/bin/cygperl5_8_1.dll
+  /usr/bin/perl5.8.1.exe
+  /usr/lib/perl5/5.8.1/abbrev.pl
+  /usr/lib/perl5/5.8.1/AnyDBM_File.pm
+  /usr/lib/perl5/5.8.1/assert.pl
+  /usr/lib/perl5/5.8.1/attributes.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/attrs.pm
+  /usr/lib/perl5/5.8.1/AutoLoader.pm
+  /usr/lib/perl5/5.8.1/AutoSplit.pm
+  /usr/lib/perl5/5.8.1/autouse.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B.pm
+  /usr/lib/perl5/5.8.1/base.pm
+  /usr/lib/perl5/5.8.1/Benchmark.pm
+  /usr/lib/perl5/5.8.1/bigfloat.pl
+  /usr/lib/perl5/5.8.1/bigint.pl
+  /usr/lib/perl5/5.8.1/bigint.pm
+  /usr/lib/perl5/5.8.1/bignum.pm
+  /usr/lib/perl5/5.8.1/bigrat.pl
+  /usr/lib/perl5/5.8.1/bigrat.pm
+  /usr/lib/perl5/5.8.1/blib.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/ByteLoader.pm
+  /usr/lib/perl5/5.8.1/bytes.pm
+  /usr/lib/perl5/5.8.1/bytes_heavy.pl
+  /usr/lib/perl5/5.8.1/cacheout.pl
+  /usr/lib/perl5/5.8.1/Carp.pm
+  /usr/lib/perl5/5.8.1/CGI.pm
+  /usr/lib/perl5/5.8.1/charnames.pm
+  /usr/lib/perl5/5.8.1/complete.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Config.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Config.pod
+  /usr/lib/perl5/5.8.1/constant.pm
+  /usr/lib/perl5/5.8.1/CPAN.pm
+  /usr/lib/perl5/5.8.1/ctime.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Cwd.pm
+  /usr/lib/perl5/5.8.1/DB.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/DB_File.pm
+  /usr/lib/perl5/5.8.1/diagnostics.pm
+  /usr/lib/perl5/5.8.1/Digest.pm
+  /usr/lib/perl5/5.8.1/DirHandle.pm
+  /usr/lib/perl5/5.8.1/dotsh.pl
+  /usr/lib/perl5/5.8.1/Dumpvalue.pm
+  /usr/lib/perl5/5.8.1/dumpvar.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/DynaLoader.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/encoding.pm
+  /usr/lib/perl5/5.8.1/English.pm
+  /usr/lib/perl5/5.8.1/Env.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Errno.pm
+  /usr/lib/perl5/5.8.1/exceptions.pl
+  /usr/lib/perl5/5.8.1/Exporter.pm
+  /usr/lib/perl5/5.8.1/fastcwd.pl
+  /usr/lib/perl5/5.8.1/Fatal.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Fcntl.pm
+  /usr/lib/perl5/5.8.1/fields.pm
+  /usr/lib/perl5/5.8.1/FileCache.pm
+  /usr/lib/perl5/5.8.1/FileHandle.pm
+  /usr/lib/perl5/5.8.1/filetest.pm
+  /usr/lib/perl5/5.8.1/find.pl
+  /usr/lib/perl5/5.8.1/FindBin.pm
+  /usr/lib/perl5/5.8.1/finddepth.pl
+  /usr/lib/perl5/5.8.1/flush.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/GDBM_File.pm
+  /usr/lib/perl5/5.8.1/getcwd.pl
+  /usr/lib/perl5/5.8.1/getopt.pl
+  /usr/lib/perl5/5.8.1/getopts.pl
+  /usr/lib/perl5/5.8.1/hostname.pl
+  /usr/lib/perl5/5.8.1/if.pm
+  /usr/lib/perl5/5.8.1/importenv.pl
+  /usr/lib/perl5/5.8.1/integer.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO.pm
+  /usr/lib/perl5/5.8.1/less.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/lib.pm
+  /usr/lib/perl5/5.8.1/locale.pm
+  /usr/lib/perl5/5.8.1/look.pl
+  /usr/lib/perl5/5.8.1/Memoize.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/NDBM_File.pm
+  /usr/lib/perl5/5.8.1/newgetopt.pl
+  /usr/lib/perl5/5.8.1/NEXT.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/O.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/ODBM_File.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Opcode.pm
+  /usr/lib/perl5/5.8.1/open.pm
+  /usr/lib/perl5/5.8.1/open2.pl
+  /usr/lib/perl5/5.8.1/open3.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/ops.pm
+  /usr/lib/perl5/5.8.1/overload.pm
+  /usr/lib/perl5/5.8.1/perl5db.pl
+  /usr/lib/perl5/5.8.1/PerlIO.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/POSIX.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/POSIX.pod
+  /usr/lib/perl5/5.8.1/pwd.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/re.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Safe.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/SDBM_File.pm
+  /usr/lib/perl5/5.8.1/SelectSaver.pm
+  /usr/lib/perl5/5.8.1/SelfLoader.pm
+  /usr/lib/perl5/5.8.1/Shell.pm
+  /usr/lib/perl5/5.8.1/shellwords.pl
+  /usr/lib/perl5/5.8.1/sigtrap.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Socket.pm
+  /usr/lib/perl5/5.8.1/sort.pm
+  /usr/lib/perl5/5.8.1/stat.pl
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Storable.pm
+  /usr/lib/perl5/5.8.1/strict.pm
+  /usr/lib/perl5/5.8.1/subs.pm
+  /usr/lib/perl5/5.8.1/Switch.pm
+  /usr/lib/perl5/5.8.1/Symbol.pm
+  /usr/lib/perl5/5.8.1/syslog.pl
+  /usr/lib/perl5/5.8.1/tainted.pl
+  /usr/lib/perl5/5.8.1/termcap.pl
+  /usr/lib/perl5/5.8.1/Test.pm
+  /usr/lib/perl5/5.8.1/Thread.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/threads.pm
+  /usr/lib/perl5/5.8.1/timelocal.pl
+  /usr/lib/perl5/5.8.1/UNIVERSAL.pm
+  /usr/lib/perl5/5.8.1/utf8.pm
+  /usr/lib/perl5/5.8.1/utf8_heavy.pl
+  /usr/lib/perl5/5.8.1/validate.pl
+  /usr/lib/perl5/5.8.1/vars.pm
+  /usr/lib/perl5/5.8.1/vmsish.pm
+  /usr/lib/perl5/5.8.1/warnings.pm
+  /usr/lib/perl5/5.8.1/Win32.pod
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/XSLoader.pm
+  /usr/lib/perl5/5.8.1/Attribute/Handlers.pm
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/Changes
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/README
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/Demo.pm
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo2.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo3.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo4.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_call.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_chain.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_cycle.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_hashdir.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_phases.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_range.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/demo_rawdata.pl
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/Descriptions.pm
+  /usr/lib/perl5/5.8.1/Attribute/Handlers/demo/MyClass.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/attrs/attrs.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/attrs/attrs.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/attrs/libattrs.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/B/B.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/B/B.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/B/libB.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/B/C/C.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/B/C/C.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/B/C/libC.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/ByteLoader/ByteLoader.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/ByteLoader/ByteLoader.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/ByteLoader/libByteLoader.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Cwd/Cwd.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Cwd/Cwd.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Cwd/libCwd.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Data/Dumper/Dumper.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Data/Dumper/Dumper.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Data/Dumper/libDumper.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DB_File/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DB_File/DB_File.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DB_File/DB_File.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DB_File/libDB_File.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/DProf/DProf.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/DProf/DProf.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/DProf/libDProf.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/Peek/libPeek.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/Peek/Peek.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/Peek/Peek.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/PPPort/libPPPort.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/PPPort/PPPort.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Devel/PPPort/PPPort.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Digest/MD5/libMD5.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Digest/MD5/MD5.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Digest/MD5/MD5.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DynaLoader/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DynaLoader/dl_expandspec.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DynaLoader/dl_findfile.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DynaLoader/dl_find_symbol_anywhere.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DynaLoader/DynaLoader.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/DynaLoader/extralibs.ld
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Encode.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Encode.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/libEncode.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Byte/Byte.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Byte/Byte.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Byte/libByte.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/CN/CN.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/CN/CN.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/CN/libCN.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/EBCDIC/EBCDIC.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/EBCDIC/EBCDIC.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/EBCDIC/libEBCDIC.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/JP/JP.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/JP/JP.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/JP/libJP.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/KR/KR.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/KR/KR.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/KR/libKR.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Symbol/libSymbol.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Symbol/Symbol.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Symbol/Symbol.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/TW/libTW.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/TW/TW.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/TW/TW.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Unicode/libUnicode.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Unicode/Unicode.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Encode/Unicode/Unicode.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Fcntl/Fcntl.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Fcntl/Fcntl.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Fcntl/libFcntl.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/File/Glob/Glob.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/File/Glob/Glob.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/File/Glob/libGlob.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Filter/Util/Call/Call.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Filter/Util/Call/Call.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Filter/Util/Call/libCall.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/GDBM_File/GDBM_File.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/GDBM_File/GDBM_File.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/GDBM_File/libGDBM_File.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/I18N/Langinfo/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/I18N/Langinfo/Langinfo.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/I18N/Langinfo/Langinfo.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/I18N/Langinfo/libLanginfo.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/IO/IO.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/IO/IO.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/IO/libIO.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/List/Util/libUtil.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/List/Util/Util.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/List/Util/Util.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/MIME/Base64/Base64.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/MIME/Base64/Base64.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/MIME/Base64/libBase64.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/NDBM_File/libNDBM_File.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/NDBM_File/NDBM_File.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/NDBM_File/NDBM_File.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/ODBM_File/libODBM_File.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/ODBM_File/ODBM_File.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/ODBM_File/ODBM_File.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Opcode/libOpcode.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Opcode/Opcode.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Opcode/Opcode.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/encoding/encoding.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/encoding/encoding.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/encoding/libencoding.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/scalar/libscalar.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/scalar/scalar.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/scalar/scalar.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/via/libvia.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/via/via.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/PerlIO/via/via.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/abs.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/alarm.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/assert.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/atan2.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/atexit.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/atof.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/atoi.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/atol.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/bsearch.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/calloc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/chdir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/chmod.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/chown.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/clearerr.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/closedir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/cos.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/creat.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/div.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/errno.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/execl.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/execle.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/execlp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/execv.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/execve.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/execvp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/exit.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/exp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fabs.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fclose.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fcntl.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fdopen.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/feof.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/ferror.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fflush.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fgetc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fgetpos.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fgets.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fileno.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fopen.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fork.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fprintf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fputc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fputs.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fread.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/free.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/freopen.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fscanf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fseek.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fsetpos.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fstat.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fsync.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/ftell.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/fwrite.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getchar.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getegid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getenv.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/geteuid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getgid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getgrgid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getgrnam.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getgroups.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getlogin.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getpgrp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getpid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getppid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getpwnam.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getpwuid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/gets.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/getuid.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/gmtime.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/isatty.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/kill.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/labs.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/ldiv.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/libPOSIX.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/link.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/load_imports.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/localtime.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/log.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/longjmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/malloc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/memchr.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/memcmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/memcpy.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/memmove.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/memset.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/mkdir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/offsetof.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/opendir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/perror.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/POSIX.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/POSIX.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/pow.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/printf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/putc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/putchar.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/puts.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/qsort.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/raise.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/rand.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/readdir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/realloc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/redef.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/remove.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/rename.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/rewind.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/rewinddir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/rmdir.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/scanf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/setbuf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/setjmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/setvbuf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/siglongjmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/sigsetjmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/sin.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/sleep.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/sprintf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/sqrt.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/srand.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/sscanf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/stat.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strcat.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strchr.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strcmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strcpy.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strcspn.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strerror.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strlen.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strncat.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strncmp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strncpy.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strpbrk.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strrchr.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strspn.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strstr.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/strtok.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/system.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/time.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/tmpfile.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/tolower.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/toupper.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/umask.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/ungetc.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/unimpl.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/unlink.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/usage.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/utime.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/vfprintf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/vprintf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/vsprintf.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/wait.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/POSIX/waitpid.al
+  /usr/lib/perl5/5.8.1/auto/POSIX/SigAction/flags.al
+  /usr/lib/perl5/5.8.1/auto/POSIX/SigAction/handler.al
+  /usr/lib/perl5/5.8.1/auto/POSIX/SigAction/mask.al
+  /usr/lib/perl5/5.8.1/auto/POSIX/SigAction/safe.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/re/libre.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/re/re.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/re/re.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/sdbm/extralibs.ld
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/SDBM_File/libSDBM_File.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/SDBM_File/SDBM_File.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/SDBM_File/SDBM_File.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Socket/libSocket.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Socket/Socket.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Socket/Socket.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/CAN_FLOCK.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/fd_retrieve.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/freeze.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/libStorable.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/lock_nstore.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/lock_retrieve.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/lock_store.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/logcarp.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/logcroak.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/nfreeze.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/nstore.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/nstore_fd.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/read_magic.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/retrieve.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/show_file_magic.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/Storable.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/Storable.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/store.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/store_fd.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/thaw.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/_freeze.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/_retrieve.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/_store.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Storable/_store_fd.al
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Hostname/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Hostname/Hostname.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Hostname/Hostname.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Hostname/libHostname.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Syslog/libSyslog.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Syslog/Syslog.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Sys/Syslog/Syslog.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/threads/libthreads.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/threads/threads.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/threads/threads.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/threads/shared/libshared.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/threads/shared/shared.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/threads/shared/shared.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Time/HiRes/HiRes.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Time/HiRes/HiRes.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Time/HiRes/libHiRes.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Unicode/Normalize/autosplit.ix
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Unicode/Normalize/libNormalize.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Unicode/Normalize/Normalize.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/Unicode/Normalize/Normalize.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/XS/APItest/APItest.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/XS/APItest/APItest.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/XS/APItest/libAPItest.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/XS/Typemap/libTypemap.dll.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/XS/Typemap/Typemap.bs
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/auto/XS/Typemap/Typemap.dll
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Asmdata.pm
+  /usr/lib/perl5/5.8.1/B/assemble
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Assembler.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Bblock.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Bytecode.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/C.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/CC.pm
+  /usr/lib/perl5/5.8.1/B/cc_harness
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Concise.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Debug.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Deparse.pm
+  /usr/lib/perl5/5.8.1/B/disassemble
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Disassembler.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Lint.pm
+  /usr/lib/perl5/5.8.1/B/makeliblinks
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Showlex.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Stackobj.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Stash.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Terse.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/B/Xref.pm
+  /usr/lib/perl5/5.8.1/Carp/Heavy.pm
+  /usr/lib/perl5/5.8.1/CGI/Apache.pm
+  /usr/lib/perl5/5.8.1/CGI/Carp.pm
+  /usr/lib/perl5/5.8.1/CGI/Cookie.pm
+  /usr/lib/perl5/5.8.1/CGI/Fast.pm
+  /usr/lib/perl5/5.8.1/CGI/Pretty.pm
+  /usr/lib/perl5/5.8.1/CGI/Push.pm
+  /usr/lib/perl5/5.8.1/CGI/Switch.pm
+  /usr/lib/perl5/5.8.1/CGI/Util.pm
+  /usr/lib/perl5/5.8.1/CGI/eg/caution.xbm
+  /usr/lib/perl5/5.8.1/CGI/eg/clickable_image.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/cookie.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/crash.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/customize.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/diff_upload.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/dna_small_gif.uu
+  /usr/lib/perl5/5.8.1/CGI/eg/file_upload.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/frameset.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/index.html
+  /usr/lib/perl5/5.8.1/CGI/eg/internal_links.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/javascript.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/make_links.pl
+  /usr/lib/perl5/5.8.1/CGI/eg/monty.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/multiple_forms.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/nph-clock.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/nph-multipart.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/popup.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/RunMeFirst
+  /usr/lib/perl5/5.8.1/CGI/eg/save_state.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/tryit.cgi
+  /usr/lib/perl5/5.8.1/CGI/eg/wilogo_gif.uu
+  /usr/lib/perl5/5.8.1/Class/ISA.pm
+  /usr/lib/perl5/5.8.1/Class/Struct.pm
+  /usr/lib/perl5/5.8.1/CPAN/FirstTime.pm
+  /usr/lib/perl5/5.8.1/CPAN/META.yml
+  /usr/lib/perl5/5.8.1/CPAN/Nox.pm
+  /usr/lib/perl5/5.8.1/CPAN/PAUSE2003.pub
+  /usr/lib/perl5/5.8.1/CPAN/SIGNATURE
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Data/Dumper.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Devel/DProf.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Devel/Peek.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Devel/PPPort.pm
+  /usr/lib/perl5/5.8.1/Devel/SelfStubber.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Digest/MD5.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Alias.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Byte.pm
+  /usr/lib/perl5/5.8.1/Encode/Changes.e2x
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/CJKConstants.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/CN.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Config.pm
+  /usr/lib/perl5/5.8.1/Encode/ConfigLocal_PM.e2x
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/EBCDIC.pm
+  /usr/lib/perl5/5.8.1/Encode/encode.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Encoder.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Encoding.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Guess.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/JP.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/KR.pm
+  /usr/lib/perl5/5.8.1/Encode/Makefile_PL.e2x
+  /usr/lib/perl5/5.8.1/Encode/PerlIO.pod
+  /usr/lib/perl5/5.8.1/Encode/README.e2x
+  /usr/lib/perl5/5.8.1/Encode/Supported.pod
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Symbol.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/TW.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Encode/Unicode.pm
+  /usr/lib/perl5/5.8.1/Encode/_PM.e2x
+  /usr/lib/perl5/5.8.1/Encode/_T.e2x
+  /usr/lib/perl5/5.8.1/Encode/CN/HZ.pm
+  /usr/lib/perl5/5.8.1/Encode/JP/H2Z.pm
+  /usr/lib/perl5/5.8.1/Encode/JP/JIS7.pm
+  /usr/lib/perl5/5.8.1/Encode/KR/2022_KR.pm
+  /usr/lib/perl5/5.8.1/Encode/MIME/Header.pm
+  /usr/lib/perl5/5.8.1/Encode/Unicode/UTF7.pm
+  /usr/lib/perl5/5.8.1/Exporter/Heavy.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Changes
+  /usr/lib/perl5/5.8.1/ExtUtils/Command.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Constant.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Embed.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Install.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Installed.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/instmodsh
+  /usr/lib/perl5/5.8.1/ExtUtils/Liblist.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MakeMaker.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Manifest.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MANIFEST.SKIP
+  /usr/lib/perl5/5.8.1/ExtUtils/META.yml
+  /usr/lib/perl5/5.8.1/ExtUtils/Miniperl.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Mkbootstrap.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Mksymlists.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_Any.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_BeOS.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_Cygwin.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_DOS.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_MacOS.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_NW5.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_OS2.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_Unix.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_UWIN.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_VMS.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_Win32.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MM_Win95.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MY.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/NOTES
+  /usr/lib/perl5/5.8.1/ExtUtils/Packlist.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/PATCHING
+  /usr/lib/perl5/5.8.1/ExtUtils/README
+  /usr/lib/perl5/5.8.1/ExtUtils/testlib.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/TODO
+  /usr/lib/perl5/5.8.1/ExtUtils/typemap
+  /usr/lib/perl5/5.8.1/ExtUtils/xsubpp
+  /usr/lib/perl5/5.8.1/ExtUtils/Command/MM.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/Liblist/Kid.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MakeMaker/bytes.pm
+  /usr/lib/perl5/5.8.1/ExtUtils/MakeMaker/FAQ.pod
+  /usr/lib/perl5/5.8.1/ExtUtils/MakeMaker/Tutorial.pod
+  /usr/lib/perl5/5.8.1/ExtUtils/MakeMaker/vmsish.pm
+  /usr/lib/perl5/5.8.1/File/Basename.pm
+  /usr/lib/perl5/5.8.1/File/CheckTree.pm
+  /usr/lib/perl5/5.8.1/File/Compare.pm
+  /usr/lib/perl5/5.8.1/File/Copy.pm
+  /usr/lib/perl5/5.8.1/File/DosGlob.pm
+  /usr/lib/perl5/5.8.1/File/Find.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/File/Glob.pm
+  /usr/lib/perl5/5.8.1/File/Path.pm
+  /usr/lib/perl5/5.8.1/File/Spec.pm
+  /usr/lib/perl5/5.8.1/File/stat.pm
+  /usr/lib/perl5/5.8.1/File/Temp.pm
+  /usr/lib/perl5/5.8.1/File/Spec/Cygwin.pm
+  /usr/lib/perl5/5.8.1/File/Spec/Epoc.pm
+  /usr/lib/perl5/5.8.1/File/Spec/Functions.pm
+  /usr/lib/perl5/5.8.1/File/Spec/Mac.pm
+  /usr/lib/perl5/5.8.1/File/Spec/OS2.pm
+  /usr/lib/perl5/5.8.1/File/Spec/Unix.pm
+  /usr/lib/perl5/5.8.1/File/Spec/VMS.pm
+  /usr/lib/perl5/5.8.1/File/Spec/Win32.pm
+  /usr/lib/perl5/5.8.1/Filter/Simple.pm
+  /usr/lib/perl5/5.8.1/Filter/Simple/Changes
+  /usr/lib/perl5/5.8.1/Filter/Simple/README
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Filter/Util/Call.pm
+  /usr/lib/perl5/5.8.1/Getopt/Long.pm
+  /usr/lib/perl5/5.8.1/Getopt/Std.pm
+  /usr/lib/perl5/5.8.1/Getopt/Long/CHANGES
+  /usr/lib/perl5/5.8.1/Getopt/Long/README
+  /usr/lib/perl5/5.8.1/Hash/Util.pm
+  /usr/lib/perl5/5.8.1/I18N/Collate.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/I18N/Langinfo.pm
+  /usr/lib/perl5/5.8.1/I18N/LangTags.pm
+  /usr/lib/perl5/5.8.1/I18N/LangTags/ChangeLog
+  /usr/lib/perl5/5.8.1/I18N/LangTags/List.pm
+  /usr/lib/perl5/5.8.1/I18N/LangTags/README
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Dir.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/File.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Handle.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Pipe.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Poll.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Seekable.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Select.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/IO/Socket.pm
+  /usr/lib/perl5/5.8.1/IO/Socket/INET.pm
+  /usr/lib/perl5/5.8.1/IO/Socket/UNIX.pm
+  /usr/lib/perl5/5.8.1/IPC/Open2.pm
+  /usr/lib/perl5/5.8.1/IPC/Open3.pm
+  /usr/lib/perl5/5.8.1/List/Util.pm
+  /usr/lib/perl5/5.8.1/Locale/Constants.pm
+  /usr/lib/perl5/5.8.1/Locale/Constants.pod
+  /usr/lib/perl5/5.8.1/Locale/Country.pm
+  /usr/lib/perl5/5.8.1/Locale/Country.pod
+  /usr/lib/perl5/5.8.1/Locale/Currency.pm
+  /usr/lib/perl5/5.8.1/Locale/Currency.pod
+  /usr/lib/perl5/5.8.1/Locale/Language.pm
+  /usr/lib/perl5/5.8.1/Locale/Language.pod
+  /usr/lib/perl5/5.8.1/Locale/Maketext.pm
+  /usr/lib/perl5/5.8.1/Locale/Maketext.pod
+  /usr/lib/perl5/5.8.1/Locale/Script.pm
+  /usr/lib/perl5/5.8.1/Locale/Script.pod
+  /usr/lib/perl5/5.8.1/Locale/Codes/ChangeLog
+  /usr/lib/perl5/5.8.1/Locale/Codes/README
+  /usr/lib/perl5/5.8.1/Locale/Maketext/ChangeLog
+  /usr/lib/perl5/5.8.1/Locale/Maketext/Guts.pm
+  /usr/lib/perl5/5.8.1/Locale/Maketext/GutsLoader.pm
+  /usr/lib/perl5/5.8.1/Locale/Maketext/README
+  /usr/lib/perl5/5.8.1/Locale/Maketext/TPJ13.pod
+  /usr/lib/perl5/5.8.1/Math/BigFloat.pm
+  /usr/lib/perl5/5.8.1/Math/BigInt.pm
+  /usr/lib/perl5/5.8.1/Math/BigRat.pm
+  /usr/lib/perl5/5.8.1/Math/Complex.pm
+  /usr/lib/perl5/5.8.1/Math/Trig.pm
+  /usr/lib/perl5/5.8.1/Math/BigFloat/Trace.pm
+  /usr/lib/perl5/5.8.1/Math/BigInt/Calc.pm
+  /usr/lib/perl5/5.8.1/Math/BigInt/Scalar.pm
+  /usr/lib/perl5/5.8.1/Math/BigInt/Trace.pm
+  /usr/lib/perl5/5.8.1/Memoize/AnyDBM_File.pm
+  /usr/lib/perl5/5.8.1/Memoize/Expire.pm
+  /usr/lib/perl5/5.8.1/Memoize/ExpireFile.pm
+  /usr/lib/perl5/5.8.1/Memoize/ExpireTest.pm
+  /usr/lib/perl5/5.8.1/Memoize/NDBM_File.pm
+  /usr/lib/perl5/5.8.1/Memoize/README
+  /usr/lib/perl5/5.8.1/Memoize/SDBM_File.pm
+  /usr/lib/perl5/5.8.1/Memoize/Storable.pm
+  /usr/lib/perl5/5.8.1/Memoize/TODO
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/MIME/Base64.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/MIME/QuotedPrint.pm
+  /usr/lib/perl5/5.8.1/Net/ChangeLog.libnet
+  /usr/lib/perl5/5.8.1/Net/Cmd.pm
+  /usr/lib/perl5/5.8.1/Net/Config.eg
+  /usr/lib/perl5/5.8.1/Net/Config.pm
+  /usr/lib/perl5/5.8.1/Net/Domain.pm
+  /usr/lib/perl5/5.8.1/Net/FTP.pm
+  /usr/lib/perl5/5.8.1/Net/hostent.pm
+  /usr/lib/perl5/5.8.1/Net/Hostname.eg
+  /usr/lib/perl5/5.8.1/Net/libnetFAQ.pod
+  /usr/lib/perl5/5.8.1/Net/netent.pm
+  /usr/lib/perl5/5.8.1/Net/Netrc.pm
+  /usr/lib/perl5/5.8.1/Net/NNTP.pm
+  /usr/lib/perl5/5.8.1/Net/Ping.pm
+  /usr/lib/perl5/5.8.1/Net/POP3.pm
+  /usr/lib/perl5/5.8.1/Net/protoent.pm
+  /usr/lib/perl5/5.8.1/Net/README.libnet
+  /usr/lib/perl5/5.8.1/Net/servent.pm
+  /usr/lib/perl5/5.8.1/Net/SMTP.pm
+  /usr/lib/perl5/5.8.1/Net/Time.pm
+  /usr/lib/perl5/5.8.1/Net/demos/ftp
+  /usr/lib/perl5/5.8.1/Net/demos/inetd
+  /usr/lib/perl5/5.8.1/Net/demos/nntp
+  /usr/lib/perl5/5.8.1/Net/demos/nntp.mirror
+  /usr/lib/perl5/5.8.1/Net/demos/pop3
+  /usr/lib/perl5/5.8.1/Net/demos/smtp.self
+  /usr/lib/perl5/5.8.1/Net/demos/time
+  /usr/lib/perl5/5.8.1/Net/FTP/A.pm
+  /usr/lib/perl5/5.8.1/Net/FTP/dataconn.pm
+  /usr/lib/perl5/5.8.1/Net/FTP/E.pm
+  /usr/lib/perl5/5.8.1/Net/FTP/I.pm
+  /usr/lib/perl5/5.8.1/Net/FTP/L.pm
+  /usr/lib/perl5/5.8.1/Net/Ping/Changes
+  /usr/lib/perl5/5.8.1/NEXT/Changes
+  /usr/lib/perl5/5.8.1/NEXT/README
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/PerlIO/encoding.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/PerlIO/scalar.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/PerlIO/via.pm
+  /usr/lib/perl5/5.8.1/PerlIO/via/QuotedPrint.pm
+  /usr/lib/perl5/5.8.1/Pod/Checker.pm
+  /usr/lib/perl5/5.8.1/Pod/Find.pm
+  /usr/lib/perl5/5.8.1/Pod/Functions.pm
+  /usr/lib/perl5/5.8.1/Pod/Html.pm
+  /usr/lib/perl5/5.8.1/Pod/InputObjects.pm
+  /usr/lib/perl5/5.8.1/Pod/LaTeX.pm
+  /usr/lib/perl5/5.8.1/Pod/Man.pm
+  /usr/lib/perl5/5.8.1/Pod/ParseLink.pm
+  /usr/lib/perl5/5.8.1/Pod/Parser.pm
+  /usr/lib/perl5/5.8.1/Pod/ParseUtils.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc.pm
+  /usr/lib/perl5/5.8.1/Pod/Plainer.pm
+  /usr/lib/perl5/5.8.1/Pod/PlainText.pm
+  /usr/lib/perl5/5.8.1/Pod/Select.pm
+  /usr/lib/perl5/5.8.1/Pod/Text.pm
+  /usr/lib/perl5/5.8.1/Pod/Usage.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/BaseTo.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/GetOptsOO.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToChecker.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToMan.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToNroff.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToPod.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToRtf.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToText.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToTk.pm
+  /usr/lib/perl5/5.8.1/Pod/Perldoc/ToXml.pm
+  /usr/lib/perl5/5.8.1/Pod/Text/Color.pm
+  /usr/lib/perl5/5.8.1/Pod/Text/Overstrike.pm
+  /usr/lib/perl5/5.8.1/Pod/Text/Termcap.pm
+  /usr/lib/perl5/5.8.1/Scalar/Util.pm
+  /usr/lib/perl5/5.8.1/Search/Dict.pm
+  /usr/lib/perl5/5.8.1/Switch/Changes
+  /usr/lib/perl5/5.8.1/Switch/README
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Sys/Hostname.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Sys/Syslog.pm
+  /usr/lib/perl5/5.8.1/Term/ANSIColor.pm
+  /usr/lib/perl5/5.8.1/Term/Cap.pm
+  /usr/lib/perl5/5.8.1/Term/Complete.pm
+  /usr/lib/perl5/5.8.1/Term/ReadLine.pm
+  /usr/lib/perl5/5.8.1/Term/ANSIColor/ChangeLog
+  /usr/lib/perl5/5.8.1/Term/ANSIColor/README
+  /usr/lib/perl5/5.8.1/Test/Builder.pm
+  /usr/lib/perl5/5.8.1/Test/Harness.pm
+  /usr/lib/perl5/5.8.1/Test/More.pm
+  /usr/lib/perl5/5.8.1/Test/Simple.pm
+  /usr/lib/perl5/5.8.1/Test/Tutorial.pod
+  /usr/lib/perl5/5.8.1/Test/Harness/Assert.pm
+  /usr/lib/perl5/5.8.1/Test/Harness/Changes
+  /usr/lib/perl5/5.8.1/Test/Harness/Iterator.pm
+  /usr/lib/perl5/5.8.1/Test/Harness/Straps.pm
+  /usr/lib/perl5/5.8.1/Test/Simple/Changes
+  /usr/lib/perl5/5.8.1/Test/Simple/README
+  /usr/lib/perl5/5.8.1/Text/Abbrev.pm
+  /usr/lib/perl5/5.8.1/Text/Balanced.pm
+  /usr/lib/perl5/5.8.1/Text/ParseWords.pm
+  /usr/lib/perl5/5.8.1/Text/Soundex.pm
+  /usr/lib/perl5/5.8.1/Text/Tabs.pm
+  /usr/lib/perl5/5.8.1/Text/Wrap.pm
+  /usr/lib/perl5/5.8.1/Text/Balanced/Changes
+  /usr/lib/perl5/5.8.1/Text/Balanced/README
+  /usr/lib/perl5/5.8.1/Text/TabsWrap/CHANGELOG
+  /usr/lib/perl5/5.8.1/Thread/Queue.pm
+  /usr/lib/perl5/5.8.1/Thread/Semaphore.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/threads/shared.pm
+  /usr/lib/perl5/5.8.1/Tie/Array.pm
+  /usr/lib/perl5/5.8.1/Tie/File.pm
+  /usr/lib/perl5/5.8.1/Tie/Handle.pm
+  /usr/lib/perl5/5.8.1/Tie/Hash.pm
+  /usr/lib/perl5/5.8.1/Tie/Memoize.pm
+  /usr/lib/perl5/5.8.1/Tie/RefHash.pm
+  /usr/lib/perl5/5.8.1/Tie/Scalar.pm
+  /usr/lib/perl5/5.8.1/Tie/SubstrHash.pm
+  /usr/lib/perl5/5.8.1/Time/gmtime.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Time/HiRes.pm
+  /usr/lib/perl5/5.8.1/Time/Local.pm
+  /usr/lib/perl5/5.8.1/Time/localtime.pm
+  /usr/lib/perl5/5.8.1/Time/tm.pm
+  /usr/lib/perl5/5.8.1/Unicode/Collate.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/Unicode/Normalize.pm
+  /usr/lib/perl5/5.8.1/Unicode/README
+  /usr/lib/perl5/5.8.1/Unicode/UCD.pm
+  /usr/lib/perl5/5.8.1/Unicode/Collate/Changes
+  /usr/lib/perl5/5.8.1/Unicode/Collate/keys.txt
+  /usr/lib/perl5/5.8.1/Unicode/Collate/README
+  /usr/lib/perl5/5.8.1/unicore/ArabicShaping.txt
+  /usr/lib/perl5/5.8.1/unicore/ArabLink.pl
+  /usr/lib/perl5/5.8.1/unicore/ArabLnkGrp.pl
+  /usr/lib/perl5/5.8.1/unicore/BidiMirroring.txt
+  /usr/lib/perl5/5.8.1/unicore/Bidirectional.pl
+  /usr/lib/perl5/5.8.1/unicore/Blocks.pl
+  /usr/lib/perl5/5.8.1/unicore/Blocks.txt
+  /usr/lib/perl5/5.8.1/unicore/Canonical.pl
+  /usr/lib/perl5/5.8.1/unicore/CaseFolding.txt
+  /usr/lib/perl5/5.8.1/unicore/Category.pl
+  /usr/lib/perl5/5.8.1/unicore/CombiningClass.pl
+  /usr/lib/perl5/5.8.1/unicore/CompositionExclusions.txt
+  /usr/lib/perl5/5.8.1/unicore/Decomposition.pl
+  /usr/lib/perl5/5.8.1/unicore/EastAsianWidth.txt
+  /usr/lib/perl5/5.8.1/unicore/Exact.pl
+  /usr/lib/perl5/5.8.1/unicore/HangulSyllableType.txt
+  /usr/lib/perl5/5.8.1/unicore/Index.txt
+  /usr/lib/perl5/5.8.1/unicore/Jamo.txt
+  /usr/lib/perl5/5.8.1/unicore/JamoShort.pl
+  /usr/lib/perl5/5.8.1/unicore/Lbrk.pl
+  /usr/lib/perl5/5.8.1/unicore/LineBreak.txt
+  /usr/lib/perl5/5.8.1/unicore/Makefile
+  /usr/lib/perl5/5.8.1/unicore/mktables
+  /usr/lib/perl5/5.8.1/unicore/Name.pl
+  /usr/lib/perl5/5.8.1/unicore/NamesList.txt
+  /usr/lib/perl5/5.8.1/unicore/NormalizationCorrections.txt
+  /usr/lib/perl5/5.8.1/unicore/Number.pl
+  /usr/lib/perl5/5.8.1/unicore/Properties
+  /usr/lib/perl5/5.8.1/unicore/PropertyAliases.txt
+  /usr/lib/perl5/5.8.1/unicore/PropList.txt
+  /usr/lib/perl5/5.8.1/unicore/PropValueAliases.txt
+  /usr/lib/perl5/5.8.1/unicore/README.perl
+  /usr/lib/perl5/5.8.1/unicore/ReadMe.txt
+  /usr/lib/perl5/5.8.1/unicore/Scripts.pl
+  /usr/lib/perl5/5.8.1/unicore/Scripts.txt
+  /usr/lib/perl5/5.8.1/unicore/SpecialCasing.txt
+  /usr/lib/perl5/5.8.1/unicore/StandardizedVariants.txt
+  /usr/lib/perl5/5.8.1/unicore/UnicodeData.txt
+  /usr/lib/perl5/5.8.1/unicore/version
+  /usr/lib/perl5/5.8.1/unicore/lib/Alnum.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Alpha.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Alphabet.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Any.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Arabic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Armenian.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/ASCII.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/AsciiHex.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Assigned.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Bengali.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiAL.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiAN.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiB.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiBN.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiCont.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiCS.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiEN.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiES.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiET.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiL.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiLRE.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiLRO.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiNSM.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiON.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiPDF.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiR.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiRLE.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiRLO.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiS.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/BidiWS.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Blank.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Bopomofo.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Braille.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Buhid.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/C.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Canadian.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Canon.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cc.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cf.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cherokee.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cn.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cntrl.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Co.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Common.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Compat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cs.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cypriot.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Cyrillic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Dash.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCcircle.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCcompat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCfinal.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCfont.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCfracti.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCinitia.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCisolat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCmedial.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCnarrow.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCnoBrea.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCsmall.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCsquare.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCsub.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCsuper.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCvertic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/DCwide.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Deprecat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Deseret.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Devanaga.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Diacriti.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Digit.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Ethiopic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Extender.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Georgian.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Gothic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Graph.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Grapheme.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Greek.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Gujarati.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Gurmukhi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Han.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Hangul.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Hanunoo.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Hebrew.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/HexDigit.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Hiragana.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Hyphen.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/IdContin.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Ideograp.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/IdsBinar.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/IdStart.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/IdsTrina.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InAegean.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InAlphab.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InArabi2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InArabi3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InArabic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InArmeni.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InArrows.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBasicL.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBengal.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBlockE.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBopom2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBopomo.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBoxDra.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBraill.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InBuhid.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InByzant.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCherok.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkCo2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkCo3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkCo4.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkCom.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkRad.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkSym.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkUn2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkUn3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCjkUni.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCombi2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCombi3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCombin.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InContro.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCurren.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCyprio.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCyril2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InCyrill.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InDesere.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InDevana.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InDingba.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InEnclo2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InEnclos.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InEthiop.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGenera.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGeomet.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGeorgi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGothic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGreek.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGreekA.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGreekE.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGujara.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InGurmuk.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHalfwi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHangu2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHangu3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHangul.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHanuno.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHebrew.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Inherite.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHighPr.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHighSu.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InHiraga.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InIdeogr.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InIpaExt.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKanbun.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKangxi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKannad.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKatak2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKataka.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKhmer.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InKhmerS.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLao.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLatin1.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLatin2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLatin3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLatinE.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLetter.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLimbu.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLinea2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLinear.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InLowSur.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMalaya.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMathe2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMathem.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMisce2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMisce3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMisce4.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMisce5.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMiscel.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMongol.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMusica.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InMyanma.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InNumber.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InOgham.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InOldIta.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InOptica.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InOriya.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InOsmany.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InPhonet.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InPrivat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InRunic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InShavia.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSinhal.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSmallF.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSpacin.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSpecia.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSupers.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSuppl2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSuppl3.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSuppl4.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSuppl5.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSupple.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InSyriac.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTagalo.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTagban.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTags.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTaiLe.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTaiXua.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTamil.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTelugu.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InThaana.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InThai.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InTibeta.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InUgarit.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InUnifie.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InVaria2.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InVariat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InYijing.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InYiRadi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/InYiSyll.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/JoinCont.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Kannada.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Katakana.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Khmer.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/L.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lao.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Latin.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Limbu.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/LinearB.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Ll.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lm.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lo.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/LogicalO.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lower.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lowercas.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lt.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Lu.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/L_.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/M.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Malayala.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Math.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Mc.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Me.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Mirrored.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Mn.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Mongolia.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Myanmar.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/N.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Nd.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Nl.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/No.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Nonchara.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Ogham.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OldItali.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Oriya.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Osmanya.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherAlp.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherDef.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherGra.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherIdS.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherLow.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherMat.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/OtherUpp.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/P.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Pc.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Pd.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Pe.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Pf.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Pi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Po.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Print.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Ps.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Punct.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Quotatio.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Radical.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Runic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/S.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Sc.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Shavian.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Sinhala.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Sk.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Sm.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/So.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/SoftDott.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Space.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/SpacePer.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Syriac.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Tagalog.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Tagbanwa.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/TaiLe.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Tamil.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Telugu.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Terminal.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Thaana.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Thai.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Tibetan.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Title.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Ugaritic.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/UnifiedI.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Upper.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Uppercas.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/WhiteSpa.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Word.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/XDigit.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Yi.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Z.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Zl.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Zp.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/Zs.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/_CanonDC.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/_CaseIgn.pl
+  /usr/lib/perl5/5.8.1/unicore/lib/_CombAbo.pl
+  /usr/lib/perl5/5.8.1/unicore/To/Digit.pl
+  /usr/lib/perl5/5.8.1/unicore/To/Fold.pl
+  /usr/lib/perl5/5.8.1/unicore/To/Lower.pl
+  /usr/lib/perl5/5.8.1/unicore/To/Title.pl
+  /usr/lib/perl5/5.8.1/unicore/To/Upper.pl
+  /usr/lib/perl5/5.8.1/User/grent.pm
+  /usr/lib/perl5/5.8.1/User/pwent.pm
+  /usr/lib/perl5/5.8.1/warnings/register.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/XS/APItest.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/XS/Typemap.pm
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/av.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/cc_runtime.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/config.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/cop.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/cv.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/dosish.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/embed.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/embedvar.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/EXTERN.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/fakesdio.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/fakethr.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/form.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/gv.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/handy.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/hv.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/INTERN.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/intrpvar.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/iperlsys.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/keywords.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/malloc_ctl.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/mg.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/nostdio.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/op.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/opcode.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/opnames.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/pad.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/patchlevel.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perl.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perlapi.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perlio.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perliol.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perlsdio.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perlsfio.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perlvars.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/perly.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/pp.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/pp_proto.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/proto.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/reentr.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/regcomp.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/regexp.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/regnodes.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/scope.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/sv.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/thrdvar.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/thread.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/uconfig.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/unixish.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/utf8.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/utfebcdic.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/util.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/warnings.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/XSUB.h
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/libperl.a
+  /usr/lib/perl5/5.8.1/cygwin-thread-multi-64int/CORE/libperl.dll.a
+  /usr/bin/perl.exe
+  /usr/bin/a2p.exe
+  /usr/bin/xsubpp
+  /usr/bin/pod2html
+  /usr/bin/pod2latex
+  /usr/bin/pod2man
+  /usr/bin/pod2text
+  /usr/bin/pod2usage
+  /usr/bin/podchecker
+  /usr/bin/podselect
+  /usr/bin/c2ph
+  /usr/bin/cpan
+  /usr/bin/dprofpp
+  /usr/bin/enc2xs
+  /usr/bin/h2ph
+  /usr/bin/h2xs
+  /usr/bin/libnetcfg
+  /usr/bin/perlbug
+  /usr/bin/perlcc
+  /usr/bin/perldoc
+  /usr/bin/perlivp
+  /usr/bin/piconv
+  /usr/bin/pl2pm
+  /usr/bin/splain
+  /usr/bin/find2perl
+  /usr/bin/s2p
+  /usr/bin/pstruct
+  /usr/bin/psed
+  /usr/lib/perl5/5.8.1/pods/perl.pod
+  /usr/lib/perl5/5.8.1/pods/perl5004delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl5005delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl561delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl56delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl570delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl571delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl572delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl573delta.pod
+  /usr/lib/perl5/5.8.1/pods/perl58delta.pod
+  /usr/lib/perl5/5.8.1/pods/perlaix.pod
+  /usr/lib/perl5/5.8.1/pods/perlamiga.pod
+  /usr/lib/perl5/5.8.1/pods/perlapi.pod
+  /usr/lib/perl5/5.8.1/pods/perlapio.pod
+  /usr/lib/perl5/5.8.1/pods/perlapollo.pod
+  /usr/lib/perl5/5.8.1/pods/perlartistic.pod
+  /usr/lib/perl5/5.8.1/pods/perlbeos.pod
+  /usr/lib/perl5/5.8.1/pods/perlbook.pod
+  /usr/lib/perl5/5.8.1/pods/perlboot.pod
+  /usr/lib/perl5/5.8.1/pods/perlbot.pod
+  /usr/lib/perl5/5.8.1/pods/perlbs2000.pod
+  /usr/lib/perl5/5.8.1/pods/perlcall.pod
+  /usr/lib/perl5/5.8.1/pods/perlce.pod
+  /usr/lib/perl5/5.8.1/pods/perlcheat.pod
+  /usr/lib/perl5/5.8.1/pods/perlclib.pod
+  /usr/lib/perl5/5.8.1/pods/perlcn.pod
+  /usr/lib/perl5/5.8.1/pods/perlcompile.pod
+  /usr/lib/perl5/5.8.1/pods/perlcygwin.pod
+  /usr/lib/perl5/5.8.1/pods/perldata.pod
+  /usr/lib/perl5/5.8.1/pods/perldbmfilter.pod
+  /usr/lib/perl5/5.8.1/pods/perldebguts.pod
+  /usr/lib/perl5/5.8.1/pods/perldebtut.pod
+  /usr/lib/perl5/5.8.1/pods/perldebug.pod
+  /usr/lib/perl5/5.8.1/pods/perldelta.pod
+  /usr/lib/perl5/5.8.1/pods/perldgux.pod
+  /usr/lib/perl5/5.8.1/pods/perldiag.pod
+  /usr/lib/perl5/5.8.1/pods/perldoc.pod
+  /usr/lib/perl5/5.8.1/pods/perldos.pod
+  /usr/lib/perl5/5.8.1/pods/perldsc.pod
+  /usr/lib/perl5/5.8.1/pods/perlebcdic.pod
+  /usr/lib/perl5/5.8.1/pods/perlembed.pod
+  /usr/lib/perl5/5.8.1/pods/perlepoc.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq1.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq2.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq3.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq4.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq5.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq6.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq7.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq8.pod
+  /usr/lib/perl5/5.8.1/pods/perlfaq9.pod
+  /usr/lib/perl5/5.8.1/pods/perlfilter.pod
+  /usr/lib/perl5/5.8.1/pods/perlfork.pod
+  /usr/lib/perl5/5.8.1/pods/perlform.pod
+  /usr/lib/perl5/5.8.1/pods/perlfreebsd.pod
+  /usr/lib/perl5/5.8.1/pods/perlfunc.pod
+  /usr/lib/perl5/5.8.1/pods/perlgpl.pod
+  /usr/lib/perl5/5.8.1/pods/perlguts.pod
+  /usr/lib/perl5/5.8.1/pods/perlhack.pod
+  /usr/lib/perl5/5.8.1/pods/perlhist.pod
+  /usr/lib/perl5/5.8.1/pods/perlhpux.pod
+  /usr/lib/perl5/5.8.1/pods/perlhurd.pod
+  /usr/lib/perl5/5.8.1/pods/perlintern.pod
+  /usr/lib/perl5/5.8.1/pods/perlintro.pod
+  /usr/lib/perl5/5.8.1/pods/perliol.pod
+  /usr/lib/perl5/5.8.1/pods/perlipc.pod
+  /usr/lib/perl5/5.8.1/pods/perlirix.pod
+  /usr/lib/perl5/5.8.1/pods/perljp.pod
+  /usr/lib/perl5/5.8.1/pods/perlko.pod
+  /usr/lib/perl5/5.8.1/pods/perllexwarn.pod
+  /usr/lib/perl5/5.8.1/pods/perllocale.pod
+  /usr/lib/perl5/5.8.1/pods/perllol.pod
+  /usr/lib/perl5/5.8.1/pods/perlmachten.pod
+  /usr/lib/perl5/5.8.1/pods/perlmacos.pod
+  /usr/lib/perl5/5.8.1/pods/perlmacosx.pod
+  /usr/lib/perl5/5.8.1/pods/perlmint.pod
+  /usr/lib/perl5/5.8.1/pods/perlmod.pod
+  /usr/lib/perl5/5.8.1/pods/perlmodinstall.pod
+  /usr/lib/perl5/5.8.1/pods/perlmodlib.pod
+  /usr/lib/perl5/5.8.1/pods/perlmodstyle.pod
+  /usr/lib/perl5/5.8.1/pods/perlmpeix.pod
+  /usr/lib/perl5/5.8.1/pods/perlnetware.pod
+  /usr/lib/perl5/5.8.1/pods/perlnewmod.pod
+  /usr/lib/perl5/5.8.1/pods/perlnumber.pod
+  /usr/lib/perl5/5.8.1/pods/perlobj.pod
+  /usr/lib/perl5/5.8.1/pods/perlop.pod
+  /usr/lib/perl5/5.8.1/pods/perlopentut.pod
+  /usr/lib/perl5/5.8.1/pods/perlos2.pod
+  /usr/lib/perl5/5.8.1/pods/perlos390.pod
+  /usr/lib/perl5/5.8.1/pods/perlos400.pod
+  /usr/lib/perl5/5.8.1/pods/perlothrtut.pod
+  /usr/lib/perl5/5.8.1/pods/perlpacktut.pod
+  /usr/lib/perl5/5.8.1/pods/perlplan9.pod
+  /usr/lib/perl5/5.8.1/pods/perlpod.pod
+  /usr/lib/perl5/5.
+Warning: perl appears in your path in the following locations beyond where
+we just installed it:
+    /tmp/perl/buildperl/perl.exe
+
+8.1/pods/perlpodspec.pod
+  /usr/lib/perl5/5.8.1/pods/perlport.pod
+  /usr/lib/perl5/5.8.1/pods/perlqnx.pod
+  /usr/lib/perl5/5.8.1/pods/perlre.pod
+  /usr/lib/perl5/5.8.1/pods/perlref.pod
+  /usr/lib/perl5/5.8.1/pods/perlreftut.pod
+  /usr/lib/perl5/5.8.1/pods/perlrequick.pod
+  /usr/lib/perl5/5.8.1/pods/perlreref.pod
+  /usr/lib/perl5/5.8.1/pods/perlretut.pod
+  /usr/lib/perl5/5.8.1/pods/perlrun.pod
+  /usr/lib/perl5/5.8.1/pods/perlsec.pod
+  /usr/lib/perl5/5.8.1/pods/perlsolaris.pod
+  /usr/lib/perl5/5.8.1/pods/perlstyle.pod
+  /usr/lib/perl5/5.8.1/pods/perlsub.pod
+  /usr/lib/perl5/5.8.1/pods/perlsyn.pod
+  /usr/lib/perl5/5.8.1/pods/perlthrtut.pod
+  /usr/lib/perl5/5.8.1/pods/perltie.pod
+  /usr/lib/perl5/5.8.1/pods/perltoc.pod
+  /usr/lib/perl5/5.8.1/pods/perltodo.pod
+  /usr/lib/perl5/5.8.1/pods/perltooc.pod
+  /usr/lib/perl5/5.8.1/pods/perltoot.pod
+  /usr/lib/perl5/5.8.1/pods/perltrap.pod
+  /usr/lib/perl5/5.8.1/pods/perltru64.pod
+  /usr/lib/perl5/5.8.1/pods/perltw.pod
+  /usr/lib/perl5/5.8.1/pods/perlunicode.pod
+  /usr/lib/perl5/5.8.1/pods/perluniintro.pod
+  /usr/lib/perl5/5.8.1/pods/perlutil.pod
+  /usr/lib/perl5/5.8.1/pods/perluts.pod
+  /usr/lib/perl5/5.8.1/pods/perlvar.pod
+  /usr/lib/perl5/5.8.1/pods/perlvmesa.pod
+  /usr/lib/perl5/5.8.1/pods/perlvms.pod
+  /usr/lib/perl5/5.8.1/pods/perlvos.pod
+  /usr/lib/perl5/5.8.1/pods/perlwin32.pod
+  /usr/lib/perl5/5.8.1/pods/perlxs.pod
+  /usr/lib/perl5/5.8.1/pods/perlxstut.pod
+make extras.install
+make[2]: Entering directory `/tmp/perl/buildperl'
+	AutoSplitting perl library
+PATH=/tmp/perl/buildperl:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/opt/gnome/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local:/etc:/usr/lib:/lib:/usr/libexec ./miniperl -Ilib -e 'use AutoSplit; \
+	autosplit_lib_modules(@ARGV)' lib/*.pm
+PATH=/tmp/perl/buildperl:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/opt/gnome/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local:/etc:/usr/lib:/lib:/usr/libexec ./miniperl -Ilib -e 'use AutoSplit; \
+	autosplit_lib_modules(@ARGV)' lib/*/*.pm
+make lib/re.pm
+make[3]: Entering directory `/tmp/perl/buildperl'
+make[3]: `lib/re.pm' is up to date.
+make[3]: Leaving directory `/tmp/perl/buildperl'
+
+	Making DynaLoader (static_pic)
+make[3]: Entering directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[3]: Entering directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[3]: Leaving directory `/tmp/perl/buildperl/ext/DynaLoader'
+make[2]: [extras.install] Error 1 (ignored)
+make[2]: Leaving directory `/tmp/perl/buildperl'
+PATH=/tmp/perl/buildperl:.:/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin:/opt/gnome/bin:/sbin:/usr/sbin:/usr/local/sbin:/usr/local:/etc:/usr/lib:/lib:/usr/libexec ./perl installman --destdir= 
+  /usr/share/man/man1/perl.1
+  /usr/share/man/man1/perl5004delta.1
+  /usr/share/man/man1/perl5005delta.1
+  /usr/share/man/man1/perl561delta.1
+  /usr/share/man/man1/perl56delta.1
+  /usr/share/man/man1/perl570delta.1
+  /usr/share/man/man1/perl571delta.1
+  /usr/share/man/man1/perl572delta.1
+  /usr/share/man/man1/perl573delta.1
+  /usr/share/man/man1/perl58delta.1
+  /usr/share/man/man1/perlaix.1
+  /usr/share/man/man1/perlamiga.1
+  /usr/share/man/man1/perlapi.1
+  /usr/share/man/man1/perlapio.1
+  /usr/share/man/man1/perlapollo.1
+  /usr/share/man/man1/perlartistic.1
+  /usr/share/man/man1/perlbeos.1
+  /usr/share/man/man1/perlbook.1
+  /usr/share/man/man1/perlboot.1
+  /usr/share/man/man1/perlbot.1
+  /usr/share/man/man1/perlbs2000.1
+  /usr/share/man/man1/perlcall.1
+  /usr/share/man/man1/perlce.1
+  /usr/share/man/man1/perlcheat.1
+  /usr/share/man/man1/perlclib.1
+  /usr/share/man/man1/perlcn.1
+  /usr/share/man/man1/perlcompile.1
+  /usr/share/man/man1/perlcygwin.1
+  /usr/share/man/man1/perldata.1
+  /usr/share/man/man1/perldbmfilter.1
+  /usr/share/man/man1/perldebguts.1
+  /usr/share/man/man1/perldebtut.1
+  /usr/share/man/man1/perldebug.1
+  /usr/share/man/man1/perldelta.1
+  /usr/share/man/man1/perldgux.1
+  /usr/share/man/man1/perldiag.1
+  /usr/share/man/man1/perldoc.1
+  /usr/share/man/man1/perldos.1
+  /usr/share/man/man1/perldsc.1
+  /usr/share/man/man1/perlebcdic.1
+  /usr/share/man/man1/perlembed.1
+  /usr/share/man/man1/perlepoc.1
+  /usr/share/man/man1/perlfaq.1
+  /usr/share/man/man1/perlfaq1.1
+  /usr/share/man/man1/perlfaq2.1
+  /usr/share/man/man1/perlfaq3.1
+  /usr/share/man/man1/perlfaq4.1
+  /usr/share/man/man1/perlfaq5.1
+  /usr/share/man/man1/perlfaq6.1
+  /usr/share/man/man1/perlfaq7.1
+  /usr/share/man/man1/perlfaq8.1
+  /usr/share/man/man1/perlfaq9.1
+  /usr/share/man/man1/perlfilter.1
+  /usr/share/man/man1/perlfork.1
+  /usr/share/man/man1/perlform.1
+  /usr/share/man/man1/perlfreebsd.1
+  /usr/share/man/man1/perlfunc.1
+  /usr/share/man/man1/perlgpl.1
+  /usr/share/man/man1/perlguts.1
+  /usr/share/man/man1/perlhack.1
+  /usr/share/man/man1/perlhist.1
+  /usr/share/man/man1/perlhpux.1
+  /usr/share/man/man1/perlhurd.1
+  /usr/share/man/man1/perlintern.1
+  /usr/share/man/man1/perlintro.1
+  /usr/share/man/man1/perliol.1
+  /usr/share/man/man1/perlipc.1
+  /usr/share/man/man1/perlirix.1
+  /usr/share/man/man1/perljp.1
+  /usr/share/man/man1/perlko.1
+  /usr/share/man/man1/perllexwarn.1
+  /usr/share/man/man1/perllocale.1
+  /usr/share/man/man1/perllol.1
+  /usr/share/man/man1/perlmachten.1
+  /usr/share/man/man1/perlmacos.1
+  /usr/share/man/man1/perlmacosx.1
+  /usr/share/man/man1/perlmint.1
+  /usr/share/man/man1/perlmod.1
+  /usr/share/man/man1/perlmodinstall.1
+  /usr/share/man/man1/perlmodlib.1
+  /usr/share/man/man1/perlmodstyle.1
+  /usr/share/man/man1/perlmpeix.1
+  /usr/share/man/man1/perlnetware.1
+  /usr/share/man/man1/perlnewmod.1
+  /usr/share/man/man1/perlnumber.1
+  /usr/share/man/man1/perlobj.1
+  /usr/share/man/man1/perlop.1
+  /usr/share/man/man1/perlopentut.1
+  /usr/share/man/man1/perlos2.1
+  /usr/share/man/man1/perlos390.1
+  /usr/share/man/man1/perlos400.1
+  /usr/share/man/man1/perlothrtut.1
+  /usr/share/man/man1/perlpacktut.1
+  /usr/share/man/man1/perlplan9.1
+  /usr/share/man/man1/perlpod.1
+  /usr/share/man/man1/perlpodspec.1
+  /usr/share/man/man1/perlport.1
+  /usr/share/man/man1/perlqnx.1
+  /usr/share/man/man1/perlre.1
+  /usr/share/man/man1/perlref.1
+  /usr/share/man/man1/perlreftut.1
+  /usr/share/man/man1/perlrequick.1
+  /usr/share/man/man1/perlreref.1
+  /usr/share/man/man1/perlretut.1
+  /usr/share/man/man1/perlrun.1
+  /usr/share/man/man1/perlsec.1
+  /usr/share/man/man1/perlsolaris.1
+  /usr/share/man/man1/perlstyle.1
+  /usr/share/man/man1/perlsub.1
+  /usr/share/man/man1/perlsyn.1
+  /usr/share/man/man1/perlthrtut.1
+  /usr/share/man/man1/perltie.1
+  /usr/share/man/man1/perltoc.1
+  /usr/share/man/man1/perltodo.1
+  /usr/share/man/man1/perltooc.1
+  /usr/share/man/man1/perltoot.1
+  /usr/share/man/man1/perltrap.1
+  /usr/share/man/man1/perltru64.1
+  /usr/share/man/man1/perltw.1
+  /usr/share/man/man1/perlunicode.1
+  /usr/share/man/man1/perluniintro.1
+  /no documentation in lib/Attribute/Handlers/demo/Demo.pm
+no documentation in lib/Attribute/Handlers/demo/Descriptions.pm
+no documentation in lib/Attribute/Handlers/demo/MyClass.pm
+no documentation in lib/ExtUtils/Liblist/Kid.pm
+no documentation in lib/Locale/Maketext/Guts.pm
+no documentation in lib/Locale/Maketext/GutsLoader.pm
+no documentation in lib/Math/BigFloat/Trace.pm
+no documentation in lib/Math/BigInt/Trace.pm
+no documentation in lib/Net/FTP/A.pm
+no documentation in lib/Net/FTP/E.pm
+no documentation in lib/Net/FTP/I.pm
+no documentation in lib/Net/FTP/L.pm
+no documentation in lib/Net/FTP/dataconn.pm
+no documentation in lib/Pod/Perldoc.pm
+no documentation in lib/Pod/Perldoc/BaseTo.pm
+no documentation in lib/Pod/Perldoc/GetOptsOO.pm
+usr/share/man/man1/perlutil.1
+  /usr/share/man/man1/perluts.1
+  /usr/share/man/man1/perlvar.1
+  /usr/share/man/man1/perlvmesa.1
+  /usr/share/man/man1/perlvms.1
+  /usr/share/man/man1/perlvos.1
+  /usr/share/man/man1/perlwin32.1
+  /usr/share/man/man1/perlxs.1
+  /usr/share/man/man1/perlxstut.1
+  /usr/share/man/man3/AnyDBM_File.3pm
+  /usr/share/man/man3/Attribute.Handlers.3pm
+  /usr/share/man/man3/AutoLoader.3pm
+  /usr/share/man/man3/AutoSplit.3pm
+  /usr/share/man/man3/B.3pm
+  /usr/share/man/man3/B.Asmdata.3pm
+  /usr/share/man/man3/B.Assembler.3pm
+  /usr/share/man/man3/B.Bblock.3pm
+  /usr/share/man/man3/B.Bytecode.3pm
+  /usr/share/man/man3/B.C.3pm
+  /usr/share/man/man3/B.CC.3pm
+  /usr/share/man/man3/B.Concise.3pm
+  /usr/share/man/man3/B.Debug.3pm
+  /usr/share/man/man3/B.Deparse.3pm
+  /usr/share/man/man3/B.Disassembler.3pm
+  /usr/share/man/man3/B.Lint.3pm
+  /usr/share/man/man3/B.Showlex.3pm
+  /usr/share/man/man3/B.Stackobj.3pm
+  /usr/share/man/man3/B.Stash.3pm
+  /usr/share/man/man3/B.Terse.3pm
+  /usr/share/man/man3/B.Xref.3pm
+  /usr/share/man/man3/Benchmark.3pm
+  /usr/share/man/man3/ByteLoader.3pm
+  /usr/share/man/man3/CGI.3pm
+  /usr/share/man/man3/CGI.Apache.3pm
+  /usr/share/man/man3/CGI.Carp.3pm
+  /usr/share/man/man3/CGI.Cookie.3pm
+  /usr/share/man/man3/CGI.Fast.3pm
+  /usr/share/man/man3/CGI.Pretty.3pm
+  /usr/share/man/man3/CGI.Push.3pm
+  /usr/share/man/man3/CGI.Switch.3pm
+  /usr/share/man/man3/CGI.Util.3pm
+  /usr/share/man/man3/CPAN.3pm
+  /usr/share/man/man3/CPAN.FirstTime.3pm
+  /usr/share/man/man3/CPAN.Nox.3pm
+  /usr/share/man/man3/Carp.3pm
+  /usr/share/man/man3/Carp.Heavy.3pm
+  /usr/share/man/man3/Class.ISA.3pm
+  /usr/share/man/man3/Class.Struct.3pm
+  /usr/share/man/man3/Config.3pm
+  /usr/share/man/man3/Cwd.3pm
+  /usr/share/man/man3/DB.3pm
+  /usr/share/man/man3/DB_File.3pm
+  /usr/share/man/man3/Data.Dumper.3pm
+  /usr/share/man/man3/Devel.DProf.3pm
+  /usr/share/man/man3/Devel.PPPort.3pm
+  /usr/share/man/man3/Devel.Peek.3pm
+  /usr/share/man/man3/Devel.SelfStubber.3pm
+  /usr/share/man/man3/Digest.3pm
+  /usr/share/man/man3/Digest.MD5.3pm
+  /usr/share/man/man3/DirHandle.3pm
+  /usr/share/man/man3/Dumpvalue.3pm
+  /usr/share/man/man3/DynaLoader.3pm
+  /usr/share/man/man3/Encode.3pm
+  /usr/share/man/man3/Encode.Alias.3pm
+  /usr/share/man/man3/Encode.Byte.3pm
+  /usr/share/man/man3/Encode.CJKConstants.3pm
+  /usr/share/man/man3/Encode.CN.3pm
+  /usr/share/man/man3/Encode.CN.HZ.3pm
+  /usr/share/man/man3/Encode.Config.3pm
+  /usr/share/man/man3/Encode.EBCDIC.3pm
+  /usr/share/man/man3/Encode.Encoder.3pm
+  /usr/share/man/man3/Encode.Encoding.3pm
+  /usr/share/man/man3/Encode.Guess.3pm
+  /usr/share/man/man3/Encode.JP.3pm
+  /usr/share/man/man3/Encode.JP.H2Z.3pm
+  /usr/share/man/man3/Encode.JP.JIS7.3pm
+  /usr/share/man/man3/Encode.KR.3pm
+  /usr/share/man/man3/Encode.KR.2022_KR.3pm
+  /usr/share/man/man3/Encode.MIME.Header.3pm
+  /usr/share/man/man3/Encode.PerlIO.3pm
+  /usr/share/man/man3/Encode.Supported.3pm
+  /usr/share/man/man3/Encode.Symbol.3pm
+  /usr/share/man/man3/Encode.TW.3pm
+  /usr/share/man/man3/Encode.Unicode.3pm
+  /usr/share/man/man3/Encode.Unicode.UTF7.3pm
+  /usr/share/man/man3/English.3pm
+  /usr/share/man/man3/Env.3pm
+  /usr/share/man/man3/Errno.3pm
+  /usr/share/man/man3/Exporter.3pm
+  /usr/share/man/man3/Exporter.Heavy.3pm
+  /usr/share/man/man3/ExtUtils.Command.3pm
+  /usr/share/man/man3/ExtUtils.Command.MM.3pm
+  /usr/share/man/man3/ExtUtils.Constant.3pm
+  /usr/share/man/man3/ExtUtils.Embed.3pm
+  /usr/share/man/man3/ExtUtils.Install.3pm
+  /usr/share/man/man3/ExtUtils.Installed.3pm
+  /usr/share/man/man3/ExtUtils.Liblist.3pm
+  /usr/share/man/man3/ExtUtils.MM.3pm
+  /usr/share/man/man3/ExtUtils.MM_Any.3pm
+  /usr/share/man/man3/ExtUtils.MM_BeOS.3pm
+  /usr/share/man/man3/ExtUtils.MM_Cygwin.3pm
+  /usr/share/man/man3/ExtUtils.MM_DOS.3pm
+  /usr/share/man/man3/ExtUtils.MM_MacOS.3pm
+  /usr/share/man/man3/ExtUtils.MM_NW5.3pm
+  /usr/share/man/man3/ExtUtils.MM_OS2.3pm
+  /usr/share/man/man3/ExtUtils.MM_UWIN.3pm
+  /usr/share/man/man3/ExtUtils.MM_Unix.3pm
+  /usr/share/man/man3/ExtUtils.MM_VMS.3pm
+  /usr/share/man/man3/ExtUtils.MM_Win32.3pm
+  /usr/share/man/man3/ExtUtils.MM_Win95.3pm
+  /usr/share/man/man3/ExtUtils.MY.3pm
+  /usr/share/man/man3/ExtUtils.MakeMaker.3pm
+  /usr/share/man/man3/ExtUtils.MakeMaker.FAQ.3pm
+  /usr/share/man/man3/ExtUtils.MakeMaker.Tutorial.3pm
+  /usr/share/man/man3/ExtUtils.MakeMaker.bytes.3pm
+  /usr/share/man/man3/ExtUtils.MakeMaker.vmsish.3pm
+  /usr/share/man/man3/ExtUtils.Manifest.3pm
+  /usr/share/man/man3/ExtUtils.Miniperl.3pm
+  /usr/share/man/man3/ExtUtils.Mkbootstrap.3pm
+  /usr/share/man/man3/ExtUtils.Mksymlists.3pm
+  /usr/share/man/man3/ExtUtils.Packlist.3pm
+  /usr/share/man/man3/ExtUtils.testlib.3pm
+  /usr/share/man/man3/Fatal.3pm
+  /usr/share/man/man3/Fcntl.3pm
+  /usr/share/man/man3/File.Basename.3pm
+  /usr/share/man/man3/File.CheckTree.3pm
+  /usr/share/man/man3/File.Compare.3pm
+  /usr/share/man/man3/File.Copy.3pm
+  /usr/share/man/man3/File.DosGlob.3pm
+  /usr/share/man/man3/File.Find.3pm
+  /usr/share/man/man3/File.Glob.3pm
+  /usr/share/man/man3/File.Path.3pm
+  /usr/share/man/man3/File.Spec.3pm
+  /usr/share/man/man3/File.Spec.Cygwin.3pm
+  /usr/share/man/man3/File.Spec.Epoc.3pm
+  /usr/share/man/man3/File.Spec.Functions.3pm
+  /usr/share/man/man3/File.Spec.Mac.3pm
+  /usr/share/man/man3/File.Spec.OS2.3pm
+  /usr/share/man/man3/File.Spec.Unix.3pm
+  /usr/share/man/man3/File.Spec.VMS.3pm
+  /usr/share/man/man3/File.Spec.Win32.3pm
+  /usr/share/man/man3/File.Temp.3pm
+  /usr/share/man/man3/File.stat.3pm
+  /usr/share/man/man3/FileCache.3pm
+  /usr/share/man/man3/FileHandle.3pm
+  /usr/share/man/man3/Filter.Simple.3pm
+  /usr/share/man/man3/Filter.Util.Call.3pm
+  /usr/share/man/man3/FindBin.3pm
+  /usr/share/man/man3/GDBM_File.3pm
+  /usr/share/man/man3/Getopt.Long.3pm
+  /usr/share/man/man3/Getopt.Std.3pm
+  /usr/share/man/man3/Hash.Util.3pm
+  /usr/share/man/man3/I18N.Collate.3pm
+  /usr/share/man/man3/I18N.LangTags.3pm
+  /usr/share/man/man3/I18N.LangTags.List.3pm
+  /usr/share/man/man3/I18N.Langinfo.3pm
+  /usr/share/man/man3/IO.3pm
+  /usr/share/man/man3/IO.Dir.3pm
+  /usr/share/man/man3/IO.File.3pm
+  /usr/share/man/man3/IO.Handle.3pm
+  /usr/share/man/man3/IO.Pipe.3pm
+  /usr/share/man/man3/IO.Poll.3pm
+  /usr/share/man/man3/IO.Seekable.3pm
+  /usr/share/man/man3/IO.Select.3pm
+  /usr/share/man/man3/IO.Socket.3pm
+  /usr/share/man/man3/IO.Socket.INET.3pm
+  /usr/share/man/man3/IO.Socket.UNIX.3pm
+  /usr/share/man/man3/IPC.Open2.3pm
+  /usr/share/man/man3/IPC.Open3.3pm
+  /usr/share/man/man3/List.Util.3pm
+  /usr/share/man/man3/Locale.Constants.3pm
+  /usr/share/man/man3/Locale.Country.3pm
+  /usr/share/man/man3/Locale.Currency.3pm
+  /usr/share/man/man3/Locale.Language.3pm
+  /usr/share/man/man3/Locale.Maketext.3pm
+  /usr/share/man/man3/Locale.Maketext.TPJ13.3pm
+  /usr/share/man/man3/Locale.Script.3pm
+  /usr/share/man/man3/MIME.Base64.3pm
+  /usr/share/man/man3/MIME.QuotedPrint.3pm
+  /usr/share/man/man3/Math.BigFloat.3pm
+  /usr/share/man/man3/Math.BigInt.3pm
+  /usr/share/man/man3/Math.BigInt.Calc.3pm
+  /usr/share/man/man3/Math.BigInt.Scalar.3pm
+  /usr/share/man/man3/Math.BigRat.3pm
+  /usr/share/man/man3/Math.Complex.3pm
+  /usr/share/man/man3/Math.Trig.3pm
+  /usr/share/man/man3/Memoize.3pm
+  /usr/share/man/man3/Memoize.AnyDBM_File.3pm
+  /usr/share/man/man3/Memoize.Expire.3pm
+  /usr/share/man/man3/Memoize.ExpireFile.3pm
+  /usr/share/man/man3/Memoize.ExpireTest.3pm
+  /usr/share/man/man3/Memoize.NDBM_File.3pm
+  /usr/share/man/man3/Memoize.SDBM_File.3pm
+  /usr/share/man/man3/Memoize.Storable.3pm
+  /usr/share/man/man3/NDBM_File.3pm
+  /usr/share/man/man3/NEXT.3pm
+  /usr/share/man/man3/Net.Cmd.3pm
+  /usr/share/man/man3/Net.Config.3pm
+  /usr/share/man/man3/Net.Domain.3pm
+  /usr/share/man/man3/Net.FTP.3pm
+  /usr/share/man/man3/Net.NNTP.3pm
+  /usr/share/man/man3/Net.Netrc.3pm
+  /usr/share/man/man3/Net.POP3.3pm
+  /usr/share/man/man3/Net.Ping.3pm
+  /usr/share/man/man3/Net.SMTP.3pm
+  /usr/share/man/man3/Net.Time.3pm
+  /usr/share/man/man3/Net.hostent.3pm
+  /usr/share/man/man3/Net.libnetFAQ.3pm
+  /usr/share/man/man3/Net.netent.3pm
+  /usr/share/man/man3/Net.protoent.3pm
+  /usr/share/man/man3/Net.servent.3pm
+  /usr/share/man/man3/O.3pm
+  /usr/share/man/man3/ODBM_File.3pm
+  /usr/share/man/man3/Opcode.3pm
+  /usr/share/man/man3/POSIX.3pm
+  /usr/share/man/man3/PerlIO.3pm
+  /usr/share/man/man3/PerlIO.encoding.3pm
+  /usr/share/man/man3/PerlIO.scalar.3pm
+  /usr/share/man/man3/PerlIO.via.3pm
+  /usr/share/man/man3/PerlIO.via.QuotedPrint.3pm
+  /usr/share/man/man3/Pod.Checker.3pm
+  /usr/share/man/man3/Pod.Find.3pm
+  /usr/share/man/man3/Pod.Html.3pm
+  /usr/share/man/man3/Pod.InputObjects.3pm
+  /usr/share/man/man3/Pod.LaTeX.3pm
+  /usr/share/man/man3/Pod.Man.3pm
+  /usr/share/man/man3/Pod.ParseLink.3pm
+  /usr/share/man/man3/Pod.ParseUtils.3pm
+  /usr/share/man/man3/Pod.Parser.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToChecker.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToMan.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToNroff.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToPod.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToRtf.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToText.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToTk.3pm
+  /usr/share/man/man3/Pod.Perldoc.ToXml.3pm
+  /usr/share/man/man3/Pod.PlainText.3pm
+  /usr/share/man/man3/Pod.Plainer.3pm
+  /usr/share/man/man3/Pod.Select.3pm
+  /usr/share/man/man3/Pod.Text.3pm
+  /usr/share/man/man3/Pod.Text.Color.3pm
+  /usr/share/man/man3/Pod.Text.Overstrike.3pm
+  /usr/share/man/man3/Pod.Text.Termcap.3pm
+  /usr/share/man/man3/Pod.Usage.3pm
+  /usr/share/man/man3/SDBM_File.3pm
+  /usr/share/man/man3/Safe.3pm
+  /usr/share/man/man3/Scalar.Util.3pm
+  /usr/share/man/man3/Search.Dict.3pm
+  /usr/share/man/man3/SelectSaver.3pm
+  /usr/share/man/man3/SelfLoader.3pm
+  /usr/share/man/man3/Shell.3pm
+  /usr/share/man/man3/Socket.3pm
+  /usr/share/man/man3/Storable.3pm
+  /usr/share/man/man3/Switch.3pm
+  /usr/share/man/man3/Symbol.3pm
+  /usr/share/man/man3/Sys.Hostname.3pm
+  /usr/share/man/man3/Sys.Syslog.3pm
+  /usr/share/man/man3/Term.ANSIColor.3pm
+  /usr/share/man/man3/Term.Cap.3pm
+  /usr/share/man/man3/Term.Complete.3pm
+  /usr/share/man/man3/Term.ReadLine.3pm
+  /usr/share/man/man3/Test.3pm
+  /usr/share/man/man3/Test.Builder.3pm
+  /usr/share/man/man3/Test.Harness.3pm
+  /usr/share/man/man3/Test.Harness.Assert.3pm
+  /usr/share/man/man3/Test.Harness.Iterator.3pm
+  /usr/share/man/man3/Test.Harness.Straps.3pm
+  /usr/share/man/man3/Test.More.3pm
+  /usr/share/man/man3/Test.Simple.3pm
+  /usr/share/man/man3/Test.Tutorial.3pm
+  /usr/share/man/man3/Text.Abbrev.3pm
+  /usr/share/man/man3/Text.Balanced.3pm
+  /usr/share/man/man3/Text.ParseWords.3pm
+  /usr/share/man/man3/Text.Soundex.3pm
+  /usr/share/man/man3/Text.Tabs.3pm
+  /usr/share/man/man3/Text.Wrap.3pm
+  /usr/share/man/man3/Thread.3pm
+  /usr/share/man/man3/Thread.Queue.3pm
+  /usr/share/man/man3/Thread.Semaphore.3pm
+  /usr/share/man/man3/Tie.Array.3pm
+  /usr/share/man/man3/Tie.File.3pm
+  /usr/share/man/man3/Tie.Handle.3pm
+  /usr/share/man/man3/Tie.Hash.3pm
+  /usr/share/man/man3/Tie.Memoize.3pm
+  /usr/share/man/man3/Tie.RefHash.3pm
+  /usr/share/man/man3/Tie.Scalar.3pm
+  /usr/share/man/man3/Tie.SubstrHash.3pm
+  /usr/share/man/man3/Time.HiRes.3pm
+  /usr/share/man/man3/Time.Local.3pm
+  /usr/share/man/man3/Time.gmtime.3pm
+  /usr/share/man/man3/Time.localtime.3pm
+  /usr/share/man/man3/Time.tm.3pm
+  /usr/share/man/man3/UNIVERSAL.3pm
+  /usr/share/man/man3/Unicode.Collate.3pm
+  /usr/share/man/man3/Unicode.Normalize.3pm
+  /usr/share/man/man3/Unicode.UCD.3pm
+  /usr/share/man/man3/User.grent.3pm
+  /usr/share/man/man3/User.pwent.3pm
+  /usr/share/man/man3/Win32.3pm
+  /usr/share/man/man3/XS.APItest.3pm
+  /usr/share/man/man3/XS.Typemap.3pm
+  /usr/share/man/man3/XSLoader.3pm
+  /usr/share/man/man3/attributes.3pm
+  /usr/share/man/man3/attrs.3pm
+  /usr/share/man/man3/autouse.3pm
+  /usr/share/man/man3/base.3pm
+  /usr/share/man/man3/bigint.3pm
+  /usr/share/man/man3/bignum.3pm
+  /usr/share/man/man3/bigrat.3pm
+  /usr/share/man/man3/blib.3pm
+  /usr/share/man/man3/bytes.3pm
+  /usr/share/man/man3/charnames.3pm
+  /usr/share/man/man3/constant.3pm
+  /usr/share/man/man3/diagnostics.3pm
+  /usr/share/man/man3/encoding.3pm
+  /usr/share/man/man3/fields.3pm
+  /usr/share/man/man3/filetest.3pm
+  /usr/share/man/man3/if.3pm
+  /usr/share/man/man3/integer.3pm
+  /usr/share/man/man3/less.3pm
+  /usr/share/man/man3/lib.3pm
+  /usr/share/man/man3/locale.3pm
+  /usr/share/man/man3/open.3pm
+  /usr/share/man/man3/ops.3pm
+  /usr/share/man/man3/overload.3pm
+  /usr/share/man/man3/re.3pm
+  /usr/share/man/man3/sigtrap.3pm
+  /usr/share/man/man3/sort.3pm
+  /usr/share/man/man3/strict.3pm
+  /usr/share/man/man3/subs.3pm
+  /usr/share/man/man3/threads.3pm
+  /usr/share/man/man3/threads.shared.3pm
+  /usr/share/man/man3/utf8.3pm
+  /usr/share/man/man3/vars.3pm
+  /usr/share/man/man3/vmsish.3pm
+  /usr/share/man/man3/warnings.3pm
+  /usr/share/man/man3/warnings.register.3pm
+  /usr/share/man/man1/xsubpp.1
+  /usr/share/man/man1/pod2html.1
+  /usr/share/man/man1/pod2latex.1
+  /usr/share/man/man1/pod2man.1
+  /usr/share/man/man1/pod2text.1
+  /usr/share/man/man1/pod2usage.1
+  /usr/share/man/man1/podchecker.1
+  /usr/share/man/man1/podselect.1
+  /usr/share/man/man1/c2ph.1
+  /usr/share/man/man1/cpan.1
+  /usr/share/man/man1/dprofpp.1
+  /usr/share/man/man1/enc2xs.1
+  /usr/share/man/man1/h2ph.1
+  /usr/share/man/man1/h2xs.1
+  /usr/share/man/man1/libnetcfg.1
+  /usr/share/man/man1/perlbug.1
+  /usr/share/man/man1/perlcc.1
+  /usr/share/man/man1/perldoc.1
+  /usr/share/man/man1/perlivp.1
+  /usr/share/man/man1/piconv.1
+  /usr/share/man/man1/pl2pm.1
+  /usr/share/man/man1/splain.1
+  /usr/share/man/man1/a2p.1
+  /usr/share/man/man1/find2perl.1
+  /usr/share/man/man1/s2p.1
+make[1]: Leaving directory `/tmp/perl/buildperl'
